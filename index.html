@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page with Sliding Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Products</h1>
+      <div class="cart-icon" onclick="toggleCart()">🛒</div>
+  </header>
+    <div class="container">
+      <main>
+        <div id="product-list"></div>
+      </main>
+
+      <div class="cart-page" id="cartPage">
+        <h2>Your Cart</h2>
+        <div id="cart-list"></div>
+        <div>
+          <button onclick="clearCart()">Clear Cart</button>
+        </div>
+        <div>
+          <h3>Total Price: $<span id="total-price">0</span></h3>
+          <h3>Average Price: $<span id="average-price">0</span></h3>
+        </div>
+        <button onclick="toggleCart()">Close</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
