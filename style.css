@@ -126,7 +126,7 @@ button:hover {
 
 @media (max-width: 768px) {
   .product {
-    width: 100%;
+    width: 310px;
     margin-right: 0;
   }
 
