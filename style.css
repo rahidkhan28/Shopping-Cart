@@ -8,7 +8,6 @@ body, html {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
 }
 
 h1 {
@@ -51,7 +50,6 @@ main {
   text-align: center;
   width: 326px;
   display: inline-block;
-
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -87,15 +85,11 @@ button {
   background-color: #242038;
   color: white;
   border: none;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   cursor: pointer;
   border-radius: 5px;
   text-align: center; 
-
 }
-
-
-
 
 button:hover {
   background-color: #000;
@@ -103,63 +97,34 @@ button:hover {
 
 /* Media Queries */
 @media (max-width: 1200px) {
-  .container {
-    max-width: 70rem;
-  }
-
-  main {
+  .main {
     margin-left: 50px;
   }
-
+  
   .product {
-    width: 280px;
+    width: 300px;
   }
 
   img {
-    height: 350px;
-    width: 280px;
+    height: 380px;
+    width: 300px;
   }
 }
 
 @media (max-width: 992px) {
-  .container {
-    max-width: 60rem;
-  }
-
-  main {
-    margin-left: 20px;
-  }
-
-  .product {
-    width: 250px;
-  }
-
-  img {
-    height: 320px;
-    width: 250px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
-
   header {
     flex-direction: column;
     height: auto;
     padding: 10px;
   }
 
-  .border-line {
-    top: 15px;
-  }
-
   main {
     margin-left: 0;
     flex-direction: column;
   }
+}
 
+@media (max-width: 768px) {
   .product {
     width: 100%;
     margin-right: 0;
@@ -170,21 +135,30 @@ button:hover {
     width: 100%;
   }
 
-  .cart-page {
+  /* .cart-page {
     width: 100%;
+  } */
+
+  button {
+    width: 100%;
+    padding: 15px;
   }
 }
 
 @media (max-width: 576px) {
-  button {
-    padding: 10px;
+  header {
+    justify-content: center;
   }
 
   .cart-icon {
     font-size: 20px;
   }
 
-  .product {
+  main {
+    padding: 10px;
+  }
+
+  button {
     padding: 10px;
   }
 }
