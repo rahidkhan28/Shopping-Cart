@@ -1,10 +1,7 @@
 let products = [
-  { id: 1, name: "Product 1", image: "image1.jpg", price: 50, quantity: 1 },
-  { id: 3, name: "Product 2", image: "download.jpeg", price: 100, quantity: 1 },
-  { id: 4, name: "Product 3", image: "image2.jpg", price: 100, quantity: 1 },
-  { id: 1, name: "Product 1", image: "image1.jpg", price: 50, quantity: 1 },
-  { id: 3, name: "Product 2", image: "download.jpeg", price: 100, quantity: 1 },
-  { id: 4, name: "Product 3", image: "image2.jpg", price: 100, quantity: 1 },
+  { id: 1, name: "Mens Oversized t-shirt", image: "image1.jpg", price: 50, quantity: 1 },
+  { id: 2, name: "Mens Summer shirt", image: "download.jpeg", price: 100, quantity: 1 },
+  { id: 3, name: "Womens Oversized t-shirts", image: "image2.jpg", price: 100, quantity: 1 },
 ];
 
 let cart = [];
